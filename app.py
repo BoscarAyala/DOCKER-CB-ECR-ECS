@@ -8,7 +8,7 @@ def index():
 
 @app.route("/hi/")
 def who():
-	return "who are you?"
+	return "who are you ???"
 
 @app.route("/hi/<username>")
 def greet(username):
